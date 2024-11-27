@@ -1,0 +1,104 @@
+# General text files
+* text=auto
+
+# Programming languages
+
+# C / C++ / C#
+*.c        text
+*.cpp      text
+*.cc       text
+*.h        text
+*.hpp      text
+*.cs       text
+
+# Java
+*.java     text
+
+# Python
+*.py       text
+
+# JavaScript / TypeScript
+*.js       text
+*.ts       text
+*.jsx      text
+*.tsx      text
+
+# Ruby
+*.rb       text
+
+# PHP
+*.php      text
+
+# HTML / CSS
+*.html     text
+*.css      text
+
+# JSON / YAML / XML / TOML
+*.json     text
+*.yaml     text
+*.yml      text
+*.xml      text
+*.toml     text
+
+# Markdown
+*.md       text
+
+# Shell scripts
+*.sh       text
+*.bash     text
+*.zsh      text
+
+# Go
+*.go       text
+
+# Rust
+*.rs       text
+
+# Swift
+*.swift    text
+
+# Kotlin
+*.kt       text
+
+# R
+*.r        text
+
+# Lua
+*.lua      text
+
+# SQL
+*.sql      text
+
+# Logisim (Circuit design files)
+*.circ     text eol=lf
+
+# Image Files (mark as binary so Git doesn't try to diff them)
+*.jpg      binary
+*.jpeg     binary
+*.png      binary
+*.gif      binary
+*.svg      binary
+*.bmp      binary
+*.tiff     binary
+
+# Binary Files
+*.pdf      binary
+*.zip      binary
+*.tar      binary
+*.gz       binary
+*.7z       binary
+
+# Log files (mark as text but with custom handling for line endings)
+*.log      text eol=lf
+
+# Other text files (use if needed for custom file types)
+*.txt      text
+
+# Additional language-specific settings (optional)
+# Make sure the files are treated as text (to handle line endings correctly across platforms)
+*.md       text eol=lf
+
+# Avoid conflict on generated or temporary files
+*.swp      -text
+*.bak      -text
+*.tmp      -text
