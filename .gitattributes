@@ -1,7 +1,9 @@
+# Treat .circ files as binary
+*.circ binary
+
+# Auto-detect text files and normalize line endings for other files
 * text=auto
 * text eol=lf
-
-*.circ binary
 
 # Binary files
 *.png binary
